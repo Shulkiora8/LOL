@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve -d dist src/index.html",
+    "build": "parcel build -d build --public-url /LOL/src/index.html",
+    "deploy": "gh-pages -d build"
+  }
+}
